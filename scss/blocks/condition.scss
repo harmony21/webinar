@@ -1,0 +1,29 @@
+.condition {
+    background: url("..//img/back.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    font-family: Century Gothic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.condition__info {
+    background: url("..//img/mainback.png") center center no-repeat;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 25px;
+    width: 52vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .online, .period {
+       background-color: #333464;
+       color: white;
+       padding: 20px;
+       width: 40vw;
+       border-radius: 10px;
+    }
+}

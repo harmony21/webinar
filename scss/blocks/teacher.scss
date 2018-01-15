@@ -1,0 +1,42 @@
+.teacher {
+    background: url("..//img/1.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    font-family: Century Gothic;
+}
+.teacher__title {
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+    padding: 30px 20px 0px 20px;
+}
+.teacher__name {
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+}
+.teacher__info {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    .photo {
+        width: 400px;
+        border: 10px solid transparent;
+        border-image: 10 repeating-linear-gradient(45deg, #A7CECC, #A7CECC 10px, transparent 10px, 
+        transparent 20px, #F8463F 20px, #F8463F 30px,transparent 30px, transparent 40px);
+        margin-left: 60px;
+    } 
+    .text {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+}
+
+ul {
+    margin: 0;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 2.8;
+}
