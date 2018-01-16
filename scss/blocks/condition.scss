@@ -1,5 +1,5 @@
 .condition {
-    background: url("..//img/back.jpg") center center no-repeat;
+    background: url("..//img/wiki.jpg") center center no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 100vh;
@@ -9,9 +9,7 @@
     align-items: center;
 }
 .condition__info {
-    background: url("..//img/mainback.png") center center no-repeat;
     border-radius: 10px;
-    border: 1px solid black;
     padding: 20px;
     font-size: 25px;
     width: 52vw;
@@ -19,11 +17,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    .wrap {
+        display: flex;
+    }
     .online, .period {
-       background-color: #333464;
-       color: white;
-       padding: 20px;
-       width: 40vw;
-       border-radius: 10px;
+       background-color: white;
+       padding: 60px 30px;
+       margin: 0 30px 50px 30px;
+       width: 240px;
+       border: 5px solid black;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-size: 32px;
+    //    font-weight: bold;
+    }
+    .others {
+        // font-weight: bold;
+        font-size: 30px;
     }
 }

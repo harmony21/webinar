@@ -1,0 +1,39 @@
+.registration {
+    background: url("..//img/contacts.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.registration__title {
+    font-family: Century Gothic;
+    text-align: center;
+    font-size: 40px;
+    padding: 40px;
+    margin: 0;
+}
+.registration__form {
+    text-align: center;
+}
+.registration__info {
+    font-family: Century Gothic;
+    text-align: center;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    .date, .time {
+        margin: 30px;
+        // border: 2px solid #C0C0C0;
+        border-radius: 5px;
+        padding: 20px;
+        height: 190px;
+        display: flex;
+        align-items: center;
+        line-height: 1.8;
+        font-size: 32px;
+        // font-weight: bold;
+    }
+}

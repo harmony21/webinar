@@ -1,5 +1,5 @@
 .welcome {
-    background: url("..//img/leader-background.png") center center no-repeat;
+    background: url("..//img/back.jpg") center center no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 100vh;
@@ -14,21 +14,19 @@
     font-family: Century Gothic;
     margin: 0;
     padding: 22px;
-    color: white;
 }
 .welcome__annotation {
     margin: 0;
     font-family: Century Gothic;
     font-size: 22px;
     text-align: center;
-    color: white;
 }
 .form {
     margin-top: 45px;
     display: flex;
     justify-content: center;
     // background-color: #FAF0E6;
-    background: url("..//img/6ff0.png");
+    background: url("..//img/4.jpg") center center;
     border-radius: 20px;
 }
 .form__info {
@@ -46,7 +44,7 @@
         font-weight: bold;
     }
     .free {
-        background: #FFFAFA;
+        // background: #FFFAFA;
         padding: 5px 8px;
         border-radius: 5px;
     }
@@ -76,7 +74,7 @@ input[type="submit"] {
     background-color: #2a5077;
     &:hover {
         transition: 1s;
-        box-shadow: 0 0 10px rgba(255,255,255,0.7);
+        box-shadow: 0 0 10px rgba(0,0,0,0.7);
         background-color: 	#483D8B;
         cursor: pointer;
     }

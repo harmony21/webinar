@@ -1,0 +1,26 @@
+.reasons {
+    background: url("..//img/books-46.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+.reasons__title {
+    margin: 0;
+    font-family: Century Gothic;
+    text-align: center;
+    font-size: 44px;
+    padding: 40px;
+}
+.reasons__list {
+    font-family: Century Gothic;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 40px;
+    line-height: 3.2;
+    li {
+        margin-left: 20px;
+        list-style: none;
+        background: url("..//img/tick.png") 0 23px no-repeat;
+        padding-left: 80px;
+    }
+}
