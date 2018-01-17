@@ -7,10 +7,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -20,39 +16,16 @@
   font-family: Raleway-Regular; }
 
 .welcome__title {
-  text-align: center;
   margin: 0;
-  padding: 22px; }
-
-.welcome__annotation {
-  margin: 0;
-  font-size: 24px;
-  text-align: center; }
-
-.form {
-  margin-top: 45px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  border-radius: 20px; }
+  padding: 0 0 40px 0;
+  font-size: 48px; }
 
 .welcome__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-align: center;
   font-size: 24px;
-  line-height: 1.3;
-  margin-top: 50px; }
+  line-height: 1.3; }
   .welcome__info .datetime {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -60,11 +33,7 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
-    margin: 60px;
-    font-weight: bold; }
-    .welcome__info .datetime .free {
-      font-weight: bold; }
+    flex-direction: column; }
 
 /*Стили формы */
 .form_registration {
@@ -79,7 +48,8 @@
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  padding: 50px; }
 
 input {
   padding: 9px;
@@ -166,7 +136,7 @@ input[type="submit"] {
     padding-left: 70px; }
 
 .skills {
-  background: url("..//img/light-back1.jpg") center center no-repeat;
+  background: url("..//img/megasize.jpg") center center no-repeat;
   background-size: cover;
   width: 100%;
   min-height: 100vh;
@@ -198,9 +168,9 @@ input[type="submit"] {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
 
 .skills__info .steps, .skills__info .major, .skills__info .markers, .skills__info .difference,
 .skills__info .notebook, .skills__info .example, .skills__info .easy {
@@ -233,46 +203,22 @@ input[type="submit"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  font-family: Raleway-Regular; }
-
-.registration__title {
-  text-align: center;
-  font-size: 40px;
-  padding: 40px;
-  margin: 0; }
-
-.registration__form {
-  text-align: center; }
-
-.registration__info {
-  text-align: center;
-  font-size: 26px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
-  .registration__info .date, .registration__info .time {
-    margin: 30px;
-    border-radius: 5px;
-    padding: 20px;
-    height: 190px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    line-height: 1.6;
-    font-size: 26px; }
+  align-items: center;
+  font-family: Raleway-Regular; }
+
+.registration__title {
+  font-size: 34px;
+  padding: 0 60px 50px 0;
+  margin: 0; }
+
+.registration__info .datetime {
+  margin-top: -70px;
+  font-size: 24px; }
 
 .footer {
   background-color: #f7f8fa;
@@ -286,7 +232,7 @@ input[type="submit"] {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  line-height: 1.5;
+  line-height: 1.3;
   position: absolute;
   bottom: 0;
   left: 0;

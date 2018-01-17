@@ -1,5 +1,5 @@
 .skills {
-    background: url("..//img/light-back1.jpg") center center no-repeat;
+    background: url("..//img/megasize.jpg") center center no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 100vh;
@@ -21,7 +21,7 @@
     .firstline {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
     .steps, .major, .markers, .difference,
     .notebook, .example, .easy {
