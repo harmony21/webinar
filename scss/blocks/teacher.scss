@@ -3,20 +3,18 @@
     background-size: cover;
     width: 100%;
     min-height: 100vh;
-    font-family: Century Gothic;
+    font-family: Raleway-Regular;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .teacher__title {
     margin: 0;
-    text-align: center;
     font-size: 32px;
-    padding: 30px 20px 0px 20px;
+    padding: 30px 20px 0px 40px;
 }
 .teacher__name {
-    margin: 0 0 50px 0;
-    text-align: center;
+    margin: 0 0 50px 40px;
     font-size: 40px;
 }
 .teacher__info {
@@ -27,18 +25,23 @@
         border: 10px solid transparent;
         border-image: 10 repeating-linear-gradient(45deg, #A7CECC, #A7CECC 10px, transparent 10px, 
         transparent 20px, #F8463F 20px, #F8463F 30px,transparent 30px, transparent 40px);
-        margin-left: 60px;
+        margin-left: 30px;
     } 
     .text {
         display: flex;
         flex-direction: column;
-        align-items: center;
         margin-left: 20px;
     }
 }
-ul {
+.teacher__list {
     margin: 0;
     font-size: 21px;
     font-weight: bold;
-    line-height: 2.8;
+    line-height: 3;
+    li {
+        list-style: none;
+        background: url("..//img/tick.png") 0 3px no-repeat;
+        padding-left: 70px;
+    }
+    
 }

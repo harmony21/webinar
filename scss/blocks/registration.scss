@@ -5,9 +5,9 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: Raleway-Regular;
 }
 .registration__title {
-    font-family: Century Gothic;
     text-align: center;
     font-size: 40px;
     padding: 40px;
@@ -17,23 +17,42 @@
     text-align: center;
 }
 .registration__info {
-    font-family: Century Gothic;
     text-align: center;
     font-size: 26px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
     .date, .time {
         margin: 30px;
-        // border: 2px solid #C0C0C0;
         border-radius: 5px;
         padding: 20px;
         height: 190px;
         display: flex;
         align-items: center;
-        line-height: 1.8;
-        font-size: 32px;
-        // font-weight: bold;
+        line-height: 1.6;
+        font-size: 26px;
     }
+}
+.footer {
+    background-color: #f7f8fa;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.footer__details {
+    width: 45%;
+    p {
+        margin: 0;
+        padding: 10px;
+    }
+}
+.footer__contacts {
+    text-align: right;
+    width: 45%;
 }
