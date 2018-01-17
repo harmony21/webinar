@@ -18,14 +18,14 @@
 .welcome__title {
   margin: 0;
   padding: 0 0 40px 0;
-  font-size: 48px; }
+  font-size: 56px;
+  font-family: Raleway-Bold; }
 
 .welcome__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 24px;
-  line-height: 1.3; }
+  font-size: 28px; }
   .welcome__info .datetime {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -33,7 +33,8 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column; }
+    flex-direction: column;
+    font-family: Raleway-Bold; }
 
 /*Стили формы */
 .form_registration {
@@ -49,7 +50,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 50px; }
+  padding: 0 50px; }
 
 input {
   padding: 9px;
@@ -136,7 +137,7 @@ input[type="submit"] {
     padding-left: 70px; }
 
 .skills {
-  background: url("..//img/megasize.jpg") center center no-repeat;
+  background: url("..//img/white2.jpg") center center no-repeat;
   background-size: cover;
   width: 100%;
   min-height: 100vh;
@@ -155,8 +156,8 @@ input[type="submit"] {
 .skills__title {
   margin: 0;
   text-align: center;
-  padding: 40px 0 0 0;
-  font-size: 44px; }
+  padding: 40px 0 10px 0;
+  font-size: 48px; }
 
 .skills__info {
   padding: 15px 10px 0 10px; }
@@ -212,13 +213,14 @@ input[type="submit"] {
   font-family: Raleway-Regular; }
 
 .registration__title {
-  font-size: 34px;
-  padding: 0 60px 50px 0;
+  font-size: 50px;
+  padding: 0 40px 40px 0;
   margin: 0; }
 
 .registration__info .datetime {
   margin-top: -70px;
-  font-size: 24px; }
+  font-size: 28px;
+  font-family: Raleway-Bold; }
 
 .footer {
   background-color: #f7f8fa;
@@ -276,3 +278,8 @@ input[type="submit"] {
   font-family: Raleway-Regular;
   src: url(..//fonts/Raleway-Regular.woff);
   src: url(..//fonts/Raleway-Regular.woff2); }
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url(..//fonts/Raleway-Bold.woff);
+  src: url(..//fonts/Raleway-Bold.woff2); }
