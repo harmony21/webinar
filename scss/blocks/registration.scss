@@ -7,17 +7,80 @@
     justify-content: center;
     align-items: center;
     font-family: Raleway-Regular;
+    @include phones {
+        flex-direction: column;
+    }
 }
 .registration__title {
     font-size: 50px;
     padding: 0 40px 40px 0;
     margin: 0;
+    @include tablets {
+        font-size: 40px;
+        padding: 0 0 150px 0;
+    }
+    @include phones {
+        text-align: center;
+        font-size: 23px;
+        padding: 0 0 30px 0;
+        width: 100%;
+    }
 }
 .registration__info {
+    width: 800px;
+    @include phones {
+        width: 100%;
+    }
+    hr {
+        @include phones {
+            width: 60%;
+            margin: 0 20%; 
+        }
+    }
     .datetime {
         margin-top: -70px;
         font-size: 28px;
         font-family: Raleway-Bold;
+        @include tablets {
+            width: 460px;
+            margin-left: 60px;
+            margin-top: -130px;
+        }
+        @include phones {
+            margin-top: 0;
+            font-size: 18px;
+            width: 100%;
+            margin-left: 0;
+            text-align: center;
+            line-height: 1.5;
+        }
+    }
+}
+.registration__form {
+    @include tablets {
+        width: 350px;
+        padding: 0;
+        margin: 0 40px 0 0;
+        margin-left: -30px;
+    }
+    @include phones {
+        text-align: center;
+        margin-left: 0;
+        margin: 0;
+        margin-top: 30px;
+    }
+    input {
+        @include tablets {
+            width: 250px;
+        }
+        @include phones {
+            margin: 8px;
+        }
+    }
+    input[type="submit"] {
+        @include tablets {
+            width: 270px;
+        }
     }
 }
 .footer {
@@ -31,15 +94,27 @@
     bottom: 0;
     left: 0;
     width: 100%;
+    @include phones {
+        font-size: 8px;
+    }
 }
 .footer__details {
     width: 45%;
+    @include phones {
+        width: 48%;
+    }
     p {
         margin: 0;
         padding: 10px;
+        @include phones {
+            padding: 5px;
+        }
     }
 }
 .footer__contacts {
     text-align: right;
     width: 45%;
+    @include phones {
+        width: 48%;
+    }
 }

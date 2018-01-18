@@ -4,22 +4,57 @@
     width: 100%;
     min-height: 100vh;
     font-family: Raleway-Regular;
+    @include tablets {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 .reasons__title {
     margin: 0;
     text-align: center;
     font-size: 44px;
     padding: 40px;
+    @include tablets {
+        padding: 0 40px 0 40px;
+    }
+    @include phones {
+        font-size: 26px;
+        padding: 0 40px 0 40px;
+    }
 }
 .reasons__list {
     font-size: 30px;
     margin-left: 150px;
     margin-top: 40px;
     line-height: 3.2;
+    @include tablets {
+        line-height: 2.8;
+        margin-left: 0;
+        font-size: 30px;
+    }
+    @include phones {
+        font-size: 16px;
+        line-height: 1.8;
+        padding-right: 20px;
+    }
     li {
         margin-left: 20px;
         list-style: none;
         background: url("..//img/tick.png") 0 23px no-repeat;
         padding-left: 80px;
+        @include tablets {
+            background: url("..//img/tick.png") 0 18px no-repeat;
+        }
+        @include phones {
+            margin-bottom: 30px;
+            margin-left: -20px;
+            background: url("..//img/tick.png") 0 2px no-repeat;
+        }
+        &:last-child {
+            @include phones {
+                margin-bottom: 0;
+            }
+        }
     }
 }

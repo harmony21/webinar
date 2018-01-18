@@ -1,3 +1,12 @@
+//resolutions
+$desktop: 1500px;
+$laptop: 992px;
+$tablets: 1024px;
+$phones: 480px;
+
+//configuration
+@import "config/media";
+
 //blocks
 @import "blocks/welcome";
 @import "blocks/teacher";
