@@ -776,14 +776,27 @@ input[type="submit"] {
   #mlb2-7421100.ml-subscribe-form .subscribe-form {
     width: 100% !important; } }
 
-@media screen and (max-width: 1024px) {
-  .ml-vertical-align-center {
-    margin-right: 20px; } }
+.ml-vertical-align-center-main {
+  margin-top: 220px; }
+  @media screen and (max-width: 1024px) {
+    .ml-vertical-align-center-main {
+      margin-top: 0;
+      margin-right: 20px; } }
+  @media screen and (max-width: 480px) {
+    .ml-vertical-align-center-main {
+      margin-right: 0;
+      margin: 40px; } }
 
-@media screen and (max-width: 480px) {
-  .ml-vertical-align-center {
-    margin-right: 0;
-    margin: 40px; } }
+.ml-vertical-align-center {
+  margin-top: 150px; }
+  @media screen and (max-width: 1024px) {
+    .ml-vertical-align-center {
+      margin-right: 20px;
+      margin-top: 0; } }
+  @media screen and (max-width: 480px) {
+    .ml-vertical-align-center {
+      margin-right: 0;
+      margin: 40px; } }
 
 @font-face {
   font-family: Raleway-Regular;

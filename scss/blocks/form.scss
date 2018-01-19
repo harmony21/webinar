@@ -228,9 +228,23 @@
         width: 100% !important;
     }
 }
+.ml-vertical-align-center-main {
+    margin-top: 220px;
+    @include tablets {
+        margin-top: 0;
+        margin-right: 20px;
+    }
+    @include phones {
+        margin-right: 0;
+        margin: 40px;
+    }
+}
+
 .ml-vertical-align-center {
+    margin-top: 150px;
     @include tablets {
         margin-right: 20px;
+        margin-top: 0;
     }
     @include phones {
         margin-right: 0;
