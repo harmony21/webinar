@@ -25,15 +25,19 @@
     @include phones {
         text-align: center;
         font-size: 27px;
-        padding: 0 0 50px 0;
+        padding: 0 0 30px 0px;
         width: 100%;
     }
 }
 .welcome__info {
     display: flex;
     font-size: 28px;
+    @include tablets {
+        margin-left: 10px;
+    }
     @include phones {
         width: 100%;
+        margin-left: 0;
     }
     hr {
         @include phones {
@@ -50,6 +54,7 @@
             font-size: 19px;
             text-align: center;
             line-height: 1.5;
+            margin-bottom: 10px;
         }
     }
 }
