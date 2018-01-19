@@ -795,8 +795,8 @@ input[type="submit"] {
       margin-top: 0; } }
   @media screen and (max-width: 480px) {
     .ml-vertical-align-center {
-      margin-right: 0;
-      margin: 40px; } }
+      margin: 40px 40px 0 40px;
+      margin-top: 20px; } }
 
 @font-face {
   font-family: Raleway-Regular;
